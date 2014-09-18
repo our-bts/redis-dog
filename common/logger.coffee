@@ -3,7 +3,6 @@ conf = require("../conf.json")
 mkdirp = require("mkdirp")
 util = require("util")
 dUtil = require("date-utils")
-mailSender = require("../common/mailSender")
 log4js = require("log4js")
 log4js.configure path.join(__dirname, "../log4js.json"),
   reloadSecs: 60
